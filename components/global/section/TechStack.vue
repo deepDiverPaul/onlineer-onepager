@@ -5,7 +5,7 @@
       <div v-for="stack in stacks" :key="stack">
         <div class="text-2xl p-4">{{stack.label}}</div>
         <div class="mockup-code">
-          <pre data-prefix="$"><code>cat {{stack.label.toLowerCase().replaceAll(' ','-')}}.md</code></pre>
+          <pre data-prefix="$"><code>cat {{stack.label.toLowerCase().replace(/\s/g, '-')}}.md</code></pre>
           <pre data-prefix=">" class="text-warning" v-for="t in stack.options" :key="t"><code>{{seniority(t[0])}} {{t[1]}}</code></pre>
           <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
         </div>
