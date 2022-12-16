@@ -3,7 +3,7 @@
     <div class="text-4xl text-center font-mono mb-6">About me</div>
     <div class="flex flex-col items-center gap-6 sm:flex-row">
       <div class="">
-        <nuxt-img format="webp" src="/assets/paul.jpg" alt="Picture of Paul" class="rounded-full w-36 sm:w-96" loading="lazy" />
+        <img src="/assets/paul.jpg" alt="Picture of Paul" class="rounded-full w-36 sm:w-96" loading="lazy" />
       </div>
       <div class="prose dark:text-white">
         <p>I am a freelance frontend engineer, working for startups and mid-sized companies worldwide.</p>
