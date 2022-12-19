@@ -23,6 +23,18 @@ const references: Reference[] = [
     wip: true
   },
   {
+    title: 'Sample of work',
+    identifier: 'demo-project',
+    tags: [
+      'SPA',
+      'Vue',
+      'VueX',
+      'Typescript',
+    ],
+    pitch: 'SPA as an implementation of a given task. Serves as a sample of work.',
+    url: 'https://github.com/deepDiverPaul/demo-project',
+  },
+  {
     title: 'Susanne Spenke',
     identifier: 'susannespenke.de',
     tags: [
