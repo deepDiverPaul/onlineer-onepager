@@ -1,42 +1,4 @@
-# Nuxt 3 Minimal Starter
+[![Build Status](https://drone.app.deep-node.de/api/badges/deepDiverPaul/onlineer-onepager/status.svg)](https://drone.app.deep-node.de/deepDiverPaul/onlineer-onepager)
+# About me
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+simple onepager using Nuxt 3

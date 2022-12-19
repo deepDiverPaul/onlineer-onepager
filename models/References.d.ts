@@ -4,5 +4,6 @@ type Reference = {
     tags: string[]
     pitch: string
     url: string
-    new: boolean
+    new?: boolean
+    wip?: boolean
 }

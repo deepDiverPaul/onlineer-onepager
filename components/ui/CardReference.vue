@@ -3,13 +3,13 @@
     <img
         :src="`/assets/references/${item.identifier}.png`"
         :alt="item.title"
-        class="rounded-2xl"
-        width="604"
+        class="rounded-2xl object-cover aspect-[4/3] w-full"
         loading="lazy" />
     <div class="card-body">
       <h2 class="card-title">
         <a :href="item.url" :title="item.title">{{item.title}}&nbsp;<icon name="icon-park-outline:efferent-four" /></a>
         <span class="badge badge-primary" v-if="item.new === true">NEW</span>
+        <span class="badge badge-outline" v-if="item.wip === true" title="work in progress">WIP</span>
       </h2>
       <p>
         {{item.pitch}}
