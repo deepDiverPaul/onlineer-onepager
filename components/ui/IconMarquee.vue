@@ -3,7 +3,7 @@
     <ul
         :class="{'motion-safe:animate-scroll': speed === 'default', 'motion-safe:animate-scroll-slow': speed === 'slow'}"
         class="marquee__content">
-      <li v-for="icon in icons" :key="icon" :title="icon.label" :style="{'--icon-color': icon.color || '#2b30e3'}">
+      <li v-for="icon in icons" :key="icon" :title="icon.label" :style="{'color': icon.color || '#2b30e3'}">
         <icon :name="icon.icon" size="20vh"></icon>
       </li>
     </ul>
@@ -39,9 +39,6 @@ const props = defineProps<{
     justify-content: space-around;
     min-width: 100%;
     gap: 6vh;
-    li {
-      color: var(--icon-color);
-    }
   }
   &:hover {
     .marquee__content {

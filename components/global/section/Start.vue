@@ -33,79 +33,79 @@ import {onKeyStroke} from "@vueuse/core";
 
 const icons: Icon[] = [
   {
-    icon: 'simple-icons:vuedotjs',
+    icon: 'logos:vue',
     label: 'Vue.js',
     color: 'rgb(62 178 127)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:nuxtdotjs',
+    icon: 'logos:nuxt-icon',
     label: 'Nuxt',
     color: 'rgb(60 123 110)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:javascript',
+    icon: 'logos:javascript',
     label: 'JavaScript',
     color: 'rgb(247 223 28)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:typescript',
+    icon: 'logos:typescript-icon',
     label: 'TypeScript',
     color: 'rgb(47 116 192)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:nodedotjs',
+    icon: 'logos:nodejs-icon',
     label: 'Node.js',
     color: 'rgb(139 191 61)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:yarn',
+    icon: 'logos:yarn',
     label: 'Yarn',
     color: 'rgb(44 142 187)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:git',
+    icon: 'logos:git-icon',
     label: 'Git',
     color: 'rgb(232 78 50)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:github',
+    icon: 'logos:github-icon',
     label: 'Github',
     color: 'rgb(33 33 33)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:gitlab',
+    icon: 'logos:gitlab',
     label: 'Gitlab',
     color: 'rgb(219 65 39)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:phpstorm',
+    icon: 'logos:phpstorm',
     label: 'PhpStorm',
     color: 'rgb(38,14,56)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:tailwindcss',
+    icon: 'logos:tailwindcss-icon',
     label: 'Tailwind CSS',
     color: 'rgb(54 183 240)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:bulma',
+    icon: 'logos:bulma',
     label: 'Bulma',
     color: 'rgb(4 203 172)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:bootstrap',
+    icon: 'logos:bootstrap',
     label: 'Bootstrap',
     color: 'rgb(118 16 241)',
     type: 'lang'
@@ -117,43 +117,43 @@ const icons: Icon[] = [
     type: 'tool'
   },
   {
-    icon: 'simple-icons:drone',
+    icon: 'logos:drone-icon',
     label: 'Drone',
     color: 'rgb(30 53 87)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:css3',
+    icon: 'logos:css-3',
     label: 'CSS3',
     color: 'rgb(0 174 247)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:html5',
+    icon: 'logos:html-5',
     label: 'HTML5',
     color: 'rgb(219 77 37)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:sass',
+    icon: 'logos:sass',
     label: 'Sass',
     color: 'rgb(199 100 149)',
     type: 'lang'
   },
   {
-    icon: 'simple-icons:webpack',
+    icon: 'logos:webpack',
     label: 'Webpack',
     color: 'rgb(26 116 185)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:vite',
+    icon: 'logos:vitejs',
     label: 'Vite',
     color: 'rgb(115 137 246)',
     type: 'tool'
   },
   {
-    icon: 'simple-icons:docker',
+    icon: 'logos:docker-icon',
     label: 'Docker',
     color: 'rgb(37 146 229)',
     type: 'tool'
@@ -171,7 +171,7 @@ const icons: Icon[] = [
     type: 'tool'
   },
   {
-    icon: 'simple-icons:strapi',
+    icon: 'logos:strapi-icon',
     label: 'Strapi',
     color: 'rgb(46 45 135)',
     type: 'tool'

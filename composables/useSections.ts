@@ -18,7 +18,7 @@ const sections: Section[] = [
         component: 'sectionTechStack',
     },
     {
-        label: 'Referenzen',
+        label: 'References',
         id: 'references',
         component: 'sectionReferences'
     },
