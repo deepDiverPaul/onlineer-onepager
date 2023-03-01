@@ -1,6 +1,11 @@
 <template>
   <div class="">
     <div class="text-4xl text-center font-mono  dark:text-white">Tech Stack</div>
+    <div class=" my-4 text-lg sm:px-10">
+      As for all engineers I also do have a stack of languages, tools and so on, that I am most familiar with. Below,
+      there is a comprehensive list which also includes the seniority in that particular filed. If there is anything
+      missing for your project, do not hesitate to mail me.
+    </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 mx-auto mt-4 gap-6">
       <div v-for="stack in stacks" :key="stack">
         <div class="text-2xl p-4">{{stack.label}}</div>
@@ -40,8 +45,8 @@ const stacks: Stack[] = [
   {
     label: 'Languages',
     options: [
+      [5, 'JavaScript'],
       [4, 'TypeScript'],
-      [4, 'JavaScript'],
       [4, '(S)CSS'],
       [3, 'PHP'],
       [3, 'MySQL'],

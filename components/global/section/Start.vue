@@ -6,7 +6,7 @@
     </div>
     <div class="start-contents w-full items-center flex mx-auto text-2xl special-text max-w-screen-sm px-8 md:px-10">
       <div class=" py-4 md:py-6 dark:text-white">
-        <div class="text-6xl mb-4">Hello World!</div>
+        <h1 class="text-6xl mb-4">I am your Frontend Freelancer.</h1>
         <div class="mb-3">
           <span>My name is Paul.</span>
         </div>
@@ -194,7 +194,7 @@ const goToContact = (): void => {
   background-color: rgba(180, 185, 194, 0.47);
   box-shadow: 0.5em 0 0 rgba(180, 185, 194, 0.47),-0.5em 0 0 rgba(180, 185, 194, 0.47);
   padding: 0.2rem;
-  line-height: 1.5;
+  line-height: 1.7;
   &.text-3xl {
     line-height: 1.48;
   }

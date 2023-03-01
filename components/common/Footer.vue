@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="pb-12">
-      <p>Copyright © 2022 - Paul Spenke</p>
+      <p>Copyright © {{ (new Date().getFullYear()) }} - Paul Spenke</p>
     </div>
     <designWaves position="bottom" />
   </footer>
