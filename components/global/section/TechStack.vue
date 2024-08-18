@@ -37,8 +37,8 @@ const stacks: Stack[] = [
       [5, 'Vue'],
       [5, 'Nuxt'],
       [5, 'Tailwind'],
-      [4, 'Bootstrap'],
-      [4, 'Bulma'],
+      [4, 'Angular'],
+      [4, 'React'],
       [3, 'Quasar'],
     ]
   },
@@ -46,7 +46,7 @@ const stacks: Stack[] = [
     label: 'Languages',
     options: [
       [5, 'JavaScript'],
-      [4, 'TypeScript'],
+      [5, 'TypeScript'],
       [4, '(S)CSS'],
       [3, 'PHP'],
       [3, 'MySQL'],
@@ -57,7 +57,7 @@ const stacks: Stack[] = [
     label: 'Tools',
     options: [
       [5, 'Git'],
-      [5, 'Github'],
+      [5, 'Web-Components'],
       [4, 'Webpack/Vite'],
       [4, 'Docker'],
       [4, 'Accessibility'],
