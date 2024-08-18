@@ -11,18 +11,6 @@
 
 const references: Reference[] = [
   {
-    title: 'Vue-Caly',
-    identifier: 'vue-caly',
-    tags: [
-      'Vue',
-      'Typescript',
-      'Plugin'
-    ],
-    pitch: 'Advanced appointment picker component for Vue',
-    url: 'https://github.com/deepDiverPaul/vue-caly',
-    wip: true
-  },
-  {
     title: 'Sample of work',
     identifier: 'demo-project',
     tags: [
@@ -57,15 +45,6 @@ const references: Reference[] = [
     pitch: 'Frontend-dev for Nuxt and Vue',
     url: 'https://github.com/deepDiverPaul/onlineer-onepager',
   },
-  {
-    title: 'Löwen-Apotheke Annaberg',
-    identifier: 'loewen-apotheke-annaberg.de',
-    tags: [
-      'Website'
-    ],
-    pitch: 'Ihre Apotheke in Annaberg-Buchholz',
-    url: 'https://www.loewen-apotheke-annaberg.de',
-  }
 ]
 
 </script>
